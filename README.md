@@ -32,6 +32,8 @@ main.o : main.c
  we can simplify the commands using variables. 
 
 Example:
+CC = arm-none-eabi-gcc
+
 main.o : main.c
 	$(CC) main.c -o main.o
 	
