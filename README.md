@@ -14,7 +14,7 @@ main.o : main.c
 	
 we can simplify the commands using variables. Ex : CC = arm-none-eabi-gcc so that $(CC) will be replaced later.
 
-After adding CC variables - 
+After adding CC variables - File will look like this
 
 Example:
 main.o : main.c
